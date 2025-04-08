@@ -32,7 +32,7 @@ git branch <YOUR_USERNAME ><br>
 <img src="images/open_PR.png" width="750" /><br>
 
 - Click it and you'll be taken to this screen.<br>
-<img src="images/create_PR.png" width="750" /><br>
+<img src="" width="750" /><br>
 
 - Open a pull request by clicking the Create pull request button. This allows the repo's maintainers to reviews your work. From here, they can merge it if it is good, or they may ask you for some changes.
 
