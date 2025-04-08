@@ -336,6 +336,58 @@ section .title::after{
      margin: 10px 0 7px 0;
  } */
 
+
+
+
+
+
+ .education {
+    background: url("/images/minimal-mountains.jpg");
+    background-size: 2000px;
+    color: white;
+  }
+  
+  .education .title::after {
+    content: "My Academic Journey";
+    background: black;
+  }
+  
+  .education .education-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .edu-card {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #23b410;
+    transition: transform 0.3s ease;
+  }
+  
+  .edu-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .edu-card h3 {
+    color: #23b410;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .edu-card p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+
+
+
+
+
+
+
  /* projects styling */
 .projects {
     color: white;
