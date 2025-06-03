@@ -354,12 +354,12 @@ section .title::after{
     background: black;
   }
   
-/* 
+
   .education .education-content {
     display: flex;
     gap: 30px;
   }
-   */
+  
 .education .education-content .column{
     width: calc(50% - 30px);
 }
@@ -843,6 +843,19 @@ footer i:hover{
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(87,142,84); 
   }
+
+
+/*this is for the project cards */
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.card-link:hover {
+  opacity: 0.95;
+}
+
 
 /* response media query starts */
 @media (max-width: 1300px) {
